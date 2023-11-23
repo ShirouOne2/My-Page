@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: rgba(0,0,0,.8);
+    background-blend-mode: hard-light;
+    border-radius: 10px;
+}
+.navbar-toggler {
+    outline: none !important;
+    padding: 0 !important;
+}
+.navbar-toggler img{
+    width: 35px;
+}
+.navbar-brand img{
+    width: 220px;
+    margin-left: 20px auto;
+}
+.nav-link{
+    color: #ffffff !important;
+    font-weight: 600;
+    margin: 10px;
+    float: right;
+}
+.wrapper{
+    margin: 100px auto;
+    margin-top: 120px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 40px 2px rgba(8,8,8,0.8);
+    background-color: rgba(0,0,0,.8);
+}
+.feature-box{
+    padding:40px;
+}
+.feature-box h1{
+    margin-top: 15%;
+    color: #ffffff;
+}
+.feature-box p{
+    margin: 40px auto;
+    color: #ffffff;
+}
+.feature-img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    filter: drop-shadow(0px 0px 20px rgba(255, 255, 255,1));
+}
+.inframe{
+    float: right;
+    padding-right: 50px;
+    color: #ffffff;
+}
+body{
+    background-color: #b5b5b5 !important;
+    background-image: url("bg.png");    
+    background-blend-mode: multiply;
+    animation: marquee 24s infinite linear;
+}
+.skills{
+    margin: 50px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 40px 2px rgba(8,8,8,0.8);
+    background-color: rgba(0,0,0,.8);
+}
+.skills h1{
+    margin: 5px auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: calc(100% + 2vw + 2vh);
+    padding-bottom: 50px;
+}
+.wrapper2{
+    margin: 50px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 20px 2px rgba(255, 255, 255,0.8);
+    background-color: rgba(255, 255, 255,.9);
+}
+.skill1{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.skill2{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+  width: 30%;
+}
+.skill3{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 18%;
+}
+.wrapper2 h5{
+    text-align: center;
+    margin: 20px;
+}
+.aboutme h1{
+    margin: 5px auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: calc(100% + 2vw + 2vh);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.aboutme p{
+    color: #ffffff;
+    padding: 7%;
+}
+.Portfolio h1{
+    margin: 5px auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: calc(100% + 2vw + 2vh);
+    margin-bottom: 40px;
+}
+.pj1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius: 10px;
+}
+.Portfolio p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+.Portfolio small{
+    color: #ffffff;
+}
+.aboutmeimg{
+     width: 100%;
+    margin: auto;
+    padding:  30px;
+    filter: drop-shadow(0px 0px 20px rgba(189, 195, 199,0.8));
+}
+.card{
+    margin: 30px;
+    filter: drop-shadow(0px 0px 10px rgba(163, 163, 163,1));
+    
+}
+.pf1{
+    
+}
+@keyframes marquee {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: -940px;
+  }
+}
+[id]::before {
+  content: '';
+  display: block;
+  height:      200px;
+  margin-top: -200px;
+  visibility: hidden;
+}
+footer {
+  background: #222;
+  color: #aaa;
+  padding-top: 10px;
+}
+
+footer a {
+  color: #aaa;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer h3 {
+ color: #0894d1;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+
+footer .three-column {
+ overflow: hidden;
+}
+
+footer .three-column li{
+ width: 33.3333%;
+  float: left;
+  padding: 5px 0;
+}
+
+footer .socila-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+
+footer .socila-list li {
+  float: left;
+  margin-right: 3px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .socila-list li:hover {
+  opacity: 1;
+}
+
+footer .img-thumbnail {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  margin-bottom: 5px;
+}
+
+footer .copyright {
+  padding: 15px 0;
+  background: #333;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+footer .copyright span {
+  color: #0894d1;
+}
